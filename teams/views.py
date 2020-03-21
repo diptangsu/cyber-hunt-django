@@ -1,12 +1,17 @@
 from django.shortcuts import render
+from django.shortcuts import redirect
+
+
+def index(request):
+    return redirect('login')
 
 
 def register(request):
-    return render(request, 'teams/index.html')
+    ...
 
 
 def login(request):
-    pass
+    return render(request, 'teams/login.html')
 
 
 def logout(request):

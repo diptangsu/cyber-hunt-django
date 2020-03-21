@@ -2,22 +2,164 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3d6139a-05ce-4090-a712-177e24eaeb88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/questions/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/questions/templates/questions/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/questions/templates/questions/question.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/questions/templates/questions/submissions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/teams/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/teams/templates/teams/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/css/app-1.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/fonts/Roboto/Roboto-Bold-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/fonts/Roboto/Roboto-Bold-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/fonts/Roboto/Roboto-Bold-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/fonts/Roboto/Roboto-Bold-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/fonts/Roboto/Roboto-Light-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/fonts/Roboto/Roboto-Light-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/fonts/Roboto/Roboto-Light-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/fonts/Roboto/Roboto-Light-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/fonts/Roboto/Roboto-Medium-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/fonts/Roboto/Roboto-Medium-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/fonts/Roboto/Roboto-Medium-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/fonts/Roboto/Roboto-Medium-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/fonts/Roboto/Roboto-Regular-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/fonts/Roboto/Roboto-Regular-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/fonts/Roboto/Roboto-Regular-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/fonts/Roboto/Roboto-Regular-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/browsers/chrome.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/browsers/firefox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/browsers/ie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/browsers/opera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/browsers/safari.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/calendar/april.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/calendar/august.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/calendar/december.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/calendar/february.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/calendar/january.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/calendar/july.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/calendar/june.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/calendar/march.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/calendar/may.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/calendar/november.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/calendar/october.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/calendar/september.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/icons/fullscreen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/icons/fullscreen@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/icons/pause.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/icons/pause@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/icons/play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/icons/play@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/icons/speaker-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/icons/speaker-2@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/icons/speaker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/icons/speaker@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/icons/weather/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/icons/weather/0@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/icons/weather/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/icons/weather/18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/icons/weather/18@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/icons/weather/19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/icons/weather/19@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/icons/weather/1@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/icons/weather/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/icons/weather/24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/icons/weather/24@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/icons/weather/26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/icons/weather/26@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/icons/weather/27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/icons/weather/27@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/icons/weather/28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/icons/weather/28@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/icons/weather/2@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/icons/weather/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/icons/weather/31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/icons/weather/31@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/icons/weather/32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/icons/weather/32@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/icons/weather/3@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/icons/weather/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/icons/weather/5@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/icons/weather/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/icons/weather/9@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/loader.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/notifications.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/img/profile-menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/js/app.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/js/inc/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/js/inc/functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/js/page-loader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/js/page-loader.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/app.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/404.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/base.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/bootstrap-overrides/alert.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/bootstrap-overrides/button.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/bootstrap-overrides/carousel.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/bootstrap-overrides/dropdown.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/bootstrap-overrides/list-group.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/bootstrap-overrides/media.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/bootstrap-overrides/modal.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/bootstrap-overrides/pagination.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/bootstrap-overrides/panel.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/bootstrap-overrides/popover.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/bootstrap-overrides/progress-bar.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/bootstrap-overrides/table.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/bootstrap-overrides/tabs.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/bootstrap-overrides/thumbnail.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/bootstrap-overrides/tooltip.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/card.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/chart.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/contacts.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/dashboard.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/font.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/footer.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/form/checkbox-radio.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/form/form-group.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/form/input-fields.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/form/switch.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/generics.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/header.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/ie-warning.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/invoice.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/login.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/messages.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/misc.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/mixin.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/navigation.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/notifications.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/photos.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/preloader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/pricing-table.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/print.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/profile.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/vendor-overrides/bootgrid.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/vendor-overrides/bootstrap-datetimepicker.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/vendor-overrides/farbtastic.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/vendor-overrides/fileinput.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/vendor-overrides/fullcalendar.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/vendor-overrides/light-gallery.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/vendor-overrides/malihu-custom-scrollbar.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/vendor-overrides/noUiSlider.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/vendor-overrides/selec2.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/vendor-overrides/sweetalert2.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/wall.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/less/inc/widgets.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/vendors/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/vendors/farbtastic/farbtastic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/vendors/farbtastic/farbtastic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/vendors/farbtastic/farbtastic.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/vendors/farbtastic/marker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/vendors/farbtastic/mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/vendors/farbtastic/wheel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/vendors/fileinput/fileinput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/vendors/fileinput/fileinput.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/vendors/fileinput/fileinput.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/vendors/jquery.sparkline/jquery.sparkline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/static/site/vendors/jquery.sparkline/jquery.sparkline.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams/templates/teams/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CyberHuntDjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/CyberHuntDjango/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CyberHuntDjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/CyberHuntDjango/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questions/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/questions/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questions/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/questions/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions/templates/questions/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/questions/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/questions/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/questions/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/questions/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teams/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/teams/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teams/templates/teams/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/teams/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/teams/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/teams/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/teams/views.py" afterDir="false" />
     </list>
@@ -60,7 +202,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/teams" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/questions/site/static" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -68,14 +210,17 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/questions" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/questions/site/static" />
       <recent name="$PROJECT_DIR$/teams" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/questions/static/site" />
+      <recent name="$PROJECT_DIR$/questions/static" />
+      <recent name="$PROJECT_DIR$/questions" />
     </key>
   </component>
   <component name="RunManager">
@@ -116,7 +261,7 @@
       <updated>1584699121511</updated>
       <workItem from="1584699165378" duration="4257000" />
       <workItem from="1584704821847" duration="13406000" />
-      <workItem from="1584790306815" duration="295000" />
+      <workItem from="1584790306815" duration="4965000" />
     </task>
     <task id="LOCAL-00001" summary="added questions and teams app">
       <created>1584701590730</created>
@@ -161,26 +306,26 @@
       <screen x="0" y="24" width="1366" height="744" />
     </state>
     <state x="460" y="140" width="424" height="514" key="FileChooserDialogImpl/0.24.1366.744@0.24.1366.744" timestamp="1584704881592" />
-    <state width="1320" height="167" key="GridCell.Tab.0.bottom" timestamp="1584785552597">
+    <state width="1320" height="166" key="GridCell.Tab.0.bottom" timestamp="1584797101929">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
-    <state width="1320" height="167" key="GridCell.Tab.0.bottom/0.24.1366.744@0.24.1366.744" timestamp="1584785552597" />
-    <state width="1320" height="167" key="GridCell.Tab.0.center" timestamp="1584785552591">
+    <state width="1320" height="166" key="GridCell.Tab.0.bottom/0.24.1366.744@0.24.1366.744" timestamp="1584797101929" />
+    <state width="1320" height="166" key="GridCell.Tab.0.center" timestamp="1584797101928">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
-    <state width="1320" height="167" key="GridCell.Tab.0.center/0.24.1366.744@0.24.1366.744" timestamp="1584785552591" />
-    <state width="1320" height="167" key="GridCell.Tab.0.left" timestamp="1584785552590">
+    <state width="1320" height="166" key="GridCell.Tab.0.center/0.24.1366.744@0.24.1366.744" timestamp="1584797101928" />
+    <state width="1320" height="166" key="GridCell.Tab.0.left" timestamp="1584797101926">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
-    <state width="1320" height="167" key="GridCell.Tab.0.left/0.24.1366.744@0.24.1366.744" timestamp="1584785552590" />
-    <state width="1320" height="167" key="GridCell.Tab.0.right" timestamp="1584785552593">
+    <state width="1320" height="166" key="GridCell.Tab.0.left/0.24.1366.744@0.24.1366.744" timestamp="1584797101926" />
+    <state width="1320" height="166" key="GridCell.Tab.0.right" timestamp="1584797101928">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
-    <state width="1320" height="167" key="GridCell.Tab.0.right/0.24.1366.744@0.24.1366.744" timestamp="1584785552593" />
-    <state x="172" y="31" width="1022" height="731" key="SettingsEditor" timestamp="1584700351312">
+    <state width="1320" height="166" key="GridCell.Tab.0.right/0.24.1366.744@0.24.1366.744" timestamp="1584797101928" />
+    <state x="172" y="31" width="1022" height="731" key="SettingsEditor" timestamp="1584795339388">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
-    <state x="172" y="31" width="1022" height="731" key="SettingsEditor/0.24.1366.744@0.24.1366.744" timestamp="1584700351312" />
+    <state x="172" y="31" width="1022" height="731" key="SettingsEditor/0.24.1366.744@0.24.1366.744" timestamp="1584795339388" />
     <state x="339" y="223" key="com.intellij.ide.util.TipDialog" timestamp="1584790312703">
       <screen x="0" y="24" width="1366" height="744" />
     </state>

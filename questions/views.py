@@ -7,10 +7,6 @@ from .models import Question
 from .models import Submission
 
 
-def index(request):
-    return render(request, 'questions/index.html')
-
-
 def question(request, question_id):
     this_question = get_object_or_404(Question, id=question_id)
     question_files = ...
