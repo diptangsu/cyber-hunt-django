@@ -15,7 +15,7 @@
                 Please Sign in
             </div>
 
-            <div class="login__block__body" action="{% url 'login' %}" method="post" autocomplete="off">
+            <form class="login__block__body" action="{% url 'login' %}" method="post" autocomplete="off">
 
                 {% csrf_token %}
 
@@ -37,7 +37,7 @@
 
                 <button class="btn btn-success btn--light btn--icon m-t-15"><i class="zmdi zmdi-long-arrow-right"></i>
                 </button>
-            </div>
+            </form>
         </div>
     </div>
 

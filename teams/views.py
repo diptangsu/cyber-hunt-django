@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.shortcuts import redirect
 from django.contrib import messages
 from .models import Team
+from CyberHuntDjango.decorators import check_login
 
 
 def index(request):
@@ -22,6 +23,9 @@ def register(request):
             if password == password2:
                 team = Team(team_name=team_name, phone=phone, email=email, password=password)
                 team.save()
+
+                messages.success(request, 'New team added successfully')
+                return redirect('question', question_id=1)
             else:
                 messages.error(request, 'Passwords don\'t match')
                 return render(request, 'teams/register.html')
@@ -31,6 +35,9 @@ def register(request):
 
 
 def login(request):
+    if 'team_id' in request.session:
+        messages.info(request, 'You are already logged in')
+        return redirect('question', question_id=1)
     if request.method == 'GET':
         return render(request, 'teams/login.html')
     else:
@@ -51,5 +58,7 @@ def login(request):
             return render(request, 'teams/login.html')
 
 
+@check_login
 def logout(request):
-    pass
+    del request.session['team_id']
+    return redirect('login')
