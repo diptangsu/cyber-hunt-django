@@ -1,8 +1,9 @@
 from django.urls import path
+from .views import *
 
 urlpatterns = [
-    path('', ),
-    path('question/<int:question_id>/', ),
-    path('submissions/', ),
-    path('leaderboard/', ),
+    path('', index),
+    path('question/<int:question_id>/', question),
+    path('submissions/', submissions),
+    path('leaderboard/', leaderboard),
 ]

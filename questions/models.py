@@ -1,4 +1,5 @@
 from django.db import models
+from teams.models import Team
 
 
 class Question(models.Model):
@@ -14,6 +15,6 @@ class Question(models.Model):
 
 
 class Submission(models.Model):
-    team = models.ForeignKey('teams.models.Team', on_delete=models.CASCADE)
+    team = models.ForeignKey(Team, on_delete=models.CASCADE)
     question = models.ForeignKey('Question', on_delete=models.CASCADE)
     timestamp = models.DateTimeField(auto_now_add=True)

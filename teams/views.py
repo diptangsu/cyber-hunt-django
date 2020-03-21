@@ -1,3 +1,13 @@
 from django.shortcuts import render
 
-# Create your views here.
+
+def register(request):
+    return render(request, 'teams/index.html')
+
+
+def login(request):
+    pass
+
+
+def logout(request):
+    pass

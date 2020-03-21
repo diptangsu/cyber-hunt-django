@@ -4,7 +4,8 @@ Written using [Django](https://www.djangoproject.com/)
 ---
 
 ## Project Setup
- - Setup virtualenv for the project and activate it
+ 
+#### Setup virtualenv for the project and activate it
 
 Linux
 ```
@@ -17,7 +18,7 @@ Windows
 > venv\Scripts\activate
 ```
 
- - Install requirements
+#### Install requirements
 ```
 pip install -r requirements.txt
 ```

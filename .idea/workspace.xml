@@ -2,10 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3d6139a-05ce-4090-a712-177e24eaeb88" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/questions/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/templates/questions/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/templates/questions/question.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/templates/questions/submissions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams/templates/teams/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CyberHuntDjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/CyberHuntDjango/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CyberHuntDjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/CyberHuntDjango/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/questions/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/questions/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/questions/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teams/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/teams/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/questions/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/questions/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teams/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/teams/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teams/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/teams/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teams/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/teams/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +33,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -41,8 +57,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/teams" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -51,6 +70,14 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/questions" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/teams" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="CyberHuntDjango" type="Python.DjangoServer" factoryName="Django server">
       <module name="CyberHuntDjango" />
@@ -58,6 +85,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="CyberHuntDjango.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -87,7 +115,8 @@
       <option name="presentableId" value="Default" />
       <updated>1584699121511</updated>
       <workItem from="1584699165378" duration="4257000" />
-      <workItem from="1584704821847" duration="6757000" />
+      <workItem from="1584704821847" duration="13406000" />
+      <workItem from="1584790306815" duration="295000" />
     </task>
     <task id="LOCAL-00001" summary="added questions and teams app">
       <created>1584701590730</created>
@@ -96,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584701590730</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added models">
+      <created>1584739586862</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584739586862</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,11 +141,18 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="added questions and teams app" />
-    <option name="LAST_COMMIT_MESSAGE" value="added questions and teams app" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="added models" />
+    <option name="LAST_COMMIT_MESSAGE" value="added models" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="278" y="57" width="800" height="678" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584790605529">
+      <screen x="0" y="24" width="1366" height="744" />
+    </state>
+    <state x="278" y="57" width="800" height="678" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.24.1366.744@0.24.1366.744" timestamp="1584790605529" />
+    <state x="416" y="145" width="524" height="503" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584787445584">
+      <screen x="0" y="24" width="1366" height="744" />
+    </state>
+    <state x="416" y="145" width="524" height="503" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.24.1366.744@0.24.1366.744" timestamp="1584787445584" />
     <state x="181" y="24" width="993" height="744" key="CommitChangelistDialog2" timestamp="1584739586502">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
@@ -118,13 +161,29 @@
       <screen x="0" y="24" width="1366" height="744" />
     </state>
     <state x="460" y="140" width="424" height="514" key="FileChooserDialogImpl/0.24.1366.744@0.24.1366.744" timestamp="1584704881592" />
+    <state width="1320" height="167" key="GridCell.Tab.0.bottom" timestamp="1584785552597">
+      <screen x="0" y="24" width="1366" height="744" />
+    </state>
+    <state width="1320" height="167" key="GridCell.Tab.0.bottom/0.24.1366.744@0.24.1366.744" timestamp="1584785552597" />
+    <state width="1320" height="167" key="GridCell.Tab.0.center" timestamp="1584785552591">
+      <screen x="0" y="24" width="1366" height="744" />
+    </state>
+    <state width="1320" height="167" key="GridCell.Tab.0.center/0.24.1366.744@0.24.1366.744" timestamp="1584785552591" />
+    <state width="1320" height="167" key="GridCell.Tab.0.left" timestamp="1584785552590">
+      <screen x="0" y="24" width="1366" height="744" />
+    </state>
+    <state width="1320" height="167" key="GridCell.Tab.0.left/0.24.1366.744@0.24.1366.744" timestamp="1584785552590" />
+    <state width="1320" height="167" key="GridCell.Tab.0.right" timestamp="1584785552593">
+      <screen x="0" y="24" width="1366" height="744" />
+    </state>
+    <state width="1320" height="167" key="GridCell.Tab.0.right/0.24.1366.744@0.24.1366.744" timestamp="1584785552593" />
     <state x="172" y="31" width="1022" height="731" key="SettingsEditor" timestamp="1584700351312">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
     <state x="172" y="31" width="1022" height="731" key="SettingsEditor/0.24.1366.744@0.24.1366.744" timestamp="1584700351312" />
-    <state x="339" y="223" key="com.intellij.ide.util.TipDialog" timestamp="1584704822340">
+    <state x="339" y="223" key="com.intellij.ide.util.TipDialog" timestamp="1584790312703">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
-    <state x="339" y="223" key="com.intellij.ide.util.TipDialog/0.24.1366.744@0.24.1366.744" timestamp="1584704822340" />
+    <state x="339" y="223" key="com.intellij.ide.util.TipDialog/0.24.1366.744@0.24.1366.744" timestamp="1584790312703" />
   </component>
 </project>
