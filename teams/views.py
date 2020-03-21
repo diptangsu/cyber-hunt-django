@@ -7,11 +7,17 @@ def index(request):
 
 
 def register(request):
-    ...
+    if request.method == 'GET':
+        return render(request, 'teams/register.html')
+    else:
+        pass
 
 
 def login(request):
-    return render(request, 'teams/login.html')
+    if request.method == 'GET':
+        return render(request, 'teams/login.html')
+    else:
+        pass
 
 
 def logout(request):
