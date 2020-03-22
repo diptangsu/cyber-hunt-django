@@ -1,8 +1,6 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
-<!--[if IE 9 ]>
-<html class="ie9"><![endif]-->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -33,6 +31,15 @@
 {% block body %}
 
 {% endblock %}
+
+<footer id="footer">
+    Written by Diptangsu Goswami
+
+    <ul class="footer__menu">
+        <li><a href="">Home</a></li>
+        <li><a href="">Dashboard</a></li>
+    </ul>
+</footer>
 
 <!-- Javascript Libraries -->
 
@@ -73,11 +80,6 @@
 
 <!-- Bootstrap -->
 <script src="{% static 'site/vendors/bower_components/bootstrap/dist/js/bootstrap.min.js' %}"></script>
-
-<!-- Placeholder for IE9 -->
-<!--[if IE 9 ]>
-            <script src="{% static 'site/vendors/bower_components/jquery-placeholder/jquery.placeholder.min.js' %}"></script>
-        <![endif]-->
 
 <!-- Site Functions & Actions -->
 <script src="{% static 'site/js/app.min.js' %}"></script>

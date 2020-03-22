@@ -1,7 +1,7 @@
 import os
 
-from django.db.models.functions import Coalesce
 from django.db.models import Sum, Count
+from django.db.models.functions import Coalesce
 from django.shortcuts import get_object_or_404
 from django.shortcuts import render
 
@@ -33,7 +33,7 @@ def get_question_images_and_files(question_id):
 
 
 def get_all_questions():
-    all_questions = Question.objects.values('id', 'name', 'points')
+    all_questions = Question.objects.values('id', 'name', 'points').filter(visible=True)
 
     def inner():
         return all_questions
@@ -60,10 +60,15 @@ def question(request, question_id):
     team = Team.objects.get(id=request.session['team_id'])
     score = get_team_score(team)
 
+    questions_answered = set(
+        Submission.objects.values_list('question__id', flat=True).filter(team=team)
+    )
+
     return render(request, 'questions/question.html', {
         'team': team,
         'score': score,
         'question': this_question,
+        'questions_answered': questions_answered,
         'files': question_files,
         'images': question_images,
         'questions_list': all_questions

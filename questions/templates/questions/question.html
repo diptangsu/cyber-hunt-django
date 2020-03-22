@@ -1,41 +1,28 @@
+{% extends 'base.html' %}
 {% load static %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Question</title>
-</head>
-<body>
 
-<p>{{ team }}</p>
+{% block title %}
+    {{ question.name }}
+{% endblock %}
 
-<p>{{ score }}</p>
+{% block body %}
 
-<p>{{ question }}</p>
+    {% include 'questions/subtemplates/header.html' %}
 
-<ul>
-    {% for ques in questions_list %}
-        <li>{{ ques }}</li>
-    {% endfor %}
-</ul>
+    <section id="main">
+        <aside id="navigation">
+            {% include 'questions/subtemplates/timer.html' %}
 
-<br>
+            {% include 'questions/subtemplates/questions-panel.html' %}
+        </aside>
 
-<ul>
-    {% for file in files %}
-        <li><a href="{% static file %}">{{ file }}</a></li>
-    {% endfor %}
-</ul>
+        {% include 'questions/subtemplates/question-body.html' %}
+    </section>
 
-<br>
+    <!-- jQuery -->
+    <script src="{% static 'site/vendors/bower_components/jquery/dist/jquery.min.js' %}"></script>
 
-<ul>
-    {% for image in images %}
-        <li><a href="{% static image %}">{{ image }}</a></li>
-    {% endfor %}
+    <!-- Bootstrap -->
+    <script src="{% static 'site/vendors/bower_components/bootstrap/dist/js/bootstrap.min.js' %}"></script>
 
-</ul>
-
-
-</body>
-</html>
+{% endblock %}

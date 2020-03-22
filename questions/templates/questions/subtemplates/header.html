@@ -1,0 +1,35 @@
+<!-- Header -->
+<header id="header">
+    <div class="logo">
+        <a>
+            {{ team.team_name }}
+            <small>SCORE: {{ score }}</small>
+        </a>
+    </div>
+
+    <ul class="top-menu">
+        <li class="dropdown hidden-xs">
+            <a data-toggle="dropdown" href=""><i class="zmdi zmdi-more-vert"></i></a>
+            <ul class="dropdown-menu dropdown-menu--icon pull-right">
+                <li>
+                    <a href="{% url 'leaderboard' %}" target="_blank">
+                        <i class="zmdi zmdi-star"></i>
+                        Leaderboard
+                    </a>
+                </li>
+                <li>
+                    <a href="{% url 'submissions' %}" target="_blank">
+                        <i class="zmdi zmdi-trending-up"></i>
+                        Submissions
+                    </a>
+                </li>
+                <li>
+                    <a href="{% url 'logout' %}">
+                        <i class="zmdi zmdi-power"></i>
+                        Logout
+                    </a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</header>

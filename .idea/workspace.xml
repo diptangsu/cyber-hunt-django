@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3d6139a-05ce-4090-a712-177e24eaeb88" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/questions/templates/questions/subtemplates/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/templates/questions/subtemplates/question-body.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/templates/questions/subtemplates/questions-panel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions/templates/questions/subtemplates/timer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questions/templates/questions/leaderboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/questions/templates/questions/leaderboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions/templates/questions/question.html" beforeDir="false" afterPath="$PROJECT_DIR$/questions/templates/questions/question.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/questions/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/questions/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,8 +67,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -98,7 +103,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -172,7 +177,8 @@
       <updated>1584699121511</updated>
       <workItem from="1584699165378" duration="4257000" />
       <workItem from="1584704821847" duration="13406000" />
-      <workItem from="1584790306815" duration="37128000" />
+      <workItem from="1584790306815" duration="44321000" />
+      <workItem from="1584906220102" duration="3191000" />
     </task>
     <task id="LOCAL-00001" summary="added questions and teams app">
       <created>1584701590730</created>
@@ -230,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584895317394</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="completed submissions and leaderboard templates">
+      <created>1584897313116</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1584897313116</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,21 +259,26 @@
     <MESSAGE value="added check_login decorator" />
     <MESSAGE value="added question data and renamed login check decorator" />
     <MESSAGE value="added submissions and leaderboard views and templates, added ordering for django-admin questions table view" />
-    <option name="LAST_COMMIT_MESSAGE" value="added submissions and leaderboard views and templates, added ordering for django-admin questions table view" />
+    <MESSAGE value="completed submissions and leaderboard templates" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed submissions and leaderboard templates" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="278" y="57" width="800" height="678" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584790605529">
+    <state x="278" y="57" width="800" height="678" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584907009511">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
-    <state x="278" y="57" width="800" height="678" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.24.1366.744@0.24.1366.744" timestamp="1584790605529" />
+    <state x="278" y="57" width="800" height="678" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.24.1366.744@0.24.1366.744" timestamp="1584907009511" />
+    <state x="374" y="201" width="608" height="391" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584905649181">
+      <screen x="0" y="24" width="1366" height="744" />
+    </state>
+    <state x="374" y="201" width="608" height="391" key="#com.intellij.fileTypes.FileTypeChooser/0.24.1366.744@0.24.1366.744" timestamp="1584905649181" />
     <state x="416" y="145" width="524" height="503" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584787445584">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
     <state x="416" y="145" width="524" height="503" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.24.1366.744@0.24.1366.744" timestamp="1584787445584" />
-    <state x="181" y="24" width="993" height="744" key="CommitChangelistDialog2" timestamp="1584895314231">
+    <state x="181" y="24" width="993" height="744" key="CommitChangelistDialog2" timestamp="1584897312906">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
-    <state x="181" y="24" width="993" height="744" key="CommitChangelistDialog2/0.24.1366.744@0.24.1366.744" timestamp="1584895314231" />
+    <state x="181" y="24" width="993" height="744" key="CommitChangelistDialog2/0.24.1366.744@0.24.1366.744" timestamp="1584897312906" />
     <state x="127" y="83" width="1092" height="626" key="DiffContextDialog" timestamp="1584873560846">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
@@ -269,41 +287,41 @@
       <screen x="0" y="24" width="1366" height="744" />
     </state>
     <state x="460" y="140" width="424" height="514" key="FileChooserDialogImpl/0.24.1366.744@0.24.1366.744" timestamp="1584704881592" />
-    <state width="1320" height="161" key="GridCell.Tab.0.bottom" timestamp="1584882931370">
+    <state width="1320" height="161" key="GridCell.Tab.0.bottom" timestamp="1584907570016">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
-    <state width="1320" height="161" key="GridCell.Tab.0.bottom/0.24.1366.744@0.24.1366.744" timestamp="1584882931370" />
-    <state width="1320" height="161" key="GridCell.Tab.0.center" timestamp="1584882931369">
+    <state width="1320" height="161" key="GridCell.Tab.0.bottom/0.24.1366.744@0.24.1366.744" timestamp="1584907570016" />
+    <state width="1320" height="161" key="GridCell.Tab.0.center" timestamp="1584907570014">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
-    <state width="1320" height="161" key="GridCell.Tab.0.center/0.24.1366.744@0.24.1366.744" timestamp="1584882931369" />
-    <state width="1320" height="161" key="GridCell.Tab.0.left" timestamp="1584882931369">
+    <state width="1320" height="161" key="GridCell.Tab.0.center/0.24.1366.744@0.24.1366.744" timestamp="1584907570014" />
+    <state width="1320" height="161" key="GridCell.Tab.0.left" timestamp="1584907570012">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
-    <state width="1320" height="161" key="GridCell.Tab.0.left/0.24.1366.744@0.24.1366.744" timestamp="1584882931369" />
-    <state width="1320" height="161" key="GridCell.Tab.0.right" timestamp="1584882931370">
+    <state width="1320" height="161" key="GridCell.Tab.0.left/0.24.1366.744@0.24.1366.744" timestamp="1584907570012" />
+    <state width="1320" height="161" key="GridCell.Tab.0.right" timestamp="1584907570015">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
-    <state width="1320" height="161" key="GridCell.Tab.0.right/0.24.1366.744@0.24.1366.744" timestamp="1584882931370" />
+    <state width="1320" height="161" key="GridCell.Tab.0.right/0.24.1366.744@0.24.1366.744" timestamp="1584907570015" />
     <state width="263" height="500" key="HiddenNamespacesPopup" timestamp="1584805579049">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
     <state width="263" height="500" key="HiddenNamespacesPopup/0.24.1366.744@0.24.1366.744" timestamp="1584805579049" />
-    <state x="172" y="31" width="1022" height="731" key="SettingsEditor" timestamp="1584795339388">
+    <state x="172" y="31" width="1022" height="731" key="SettingsEditor" timestamp="1584906548011">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
-    <state x="172" y="31" width="1022" height="731" key="SettingsEditor/0.24.1366.744@0.24.1366.744" timestamp="1584795339388" />
-    <state x="278" y="132" width="800" height="529" key="Vcs.Push.Dialog.v2" timestamp="1584895321267">
+    <state x="172" y="31" width="1022" height="731" key="SettingsEditor/0.24.1366.744@0.24.1366.744" timestamp="1584906548011" />
+    <state x="278" y="132" width="800" height="529" key="Vcs.Push.Dialog.v2" timestamp="1584897315392">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
-    <state x="278" y="132" width="800" height="529" key="Vcs.Push.Dialog.v2/0.24.1366.744@0.24.1366.744" timestamp="1584895321267" />
-    <state x="339" y="223" key="com.intellij.ide.util.TipDialog" timestamp="1584790312703">
+    <state x="278" y="132" width="800" height="529" key="Vcs.Push.Dialog.v2/0.24.1366.744@0.24.1366.744" timestamp="1584897315392" />
+    <state x="339" y="223" key="com.intellij.ide.util.TipDialog" timestamp="1584906265215">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
-    <state x="339" y="223" key="com.intellij.ide.util.TipDialog/0.24.1366.744@0.24.1366.744" timestamp="1584790312703" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1584823553880">
+    <state x="339" y="223" key="com.intellij.ide.util.TipDialog/0.24.1366.744@0.24.1366.744" timestamp="1584906265215" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1584902156553">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.24.1366.744@0.24.1366.744" timestamp="1584823553880" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.24.1366.744@0.24.1366.744" timestamp="1584902156553" />
   </component>
 </project>
