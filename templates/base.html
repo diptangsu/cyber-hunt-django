@@ -1,48 +1,111 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
-    <!--[if IE 9 ]><html class="ie9"><![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>
-            {% block title %}
+<!--[if IE 9 ]>
+<html class="ie9"><![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        {% block title %}
 
-            {% endblock %}
-        </title>
+        {% endblock %}
+    </title>
 
-        <!-- Vendors -->
+    <!-- Vendors -->
 
-        <!-- Animate CSS -->
-        <link href="{% static 'site/vendors/bower_components/animate.css/animate.min.css' %}" rel="stylesheet">
+    <!-- Animate CSS -->
+    <link href="{% static 'site/vendors/bower_components/animate.css/animate.min.css' %}" rel="stylesheet">
 
-        <!-- Material Design Icons -->
-        <link href="{% static 'site/vendors/bower_components/material-design-iconic-font/dist/css/material-design-iconic-font.min.css' %}" rel="stylesheet">
+    <!-- Material Design Icons -->
+    <link href="{% static 'site/vendors/bower_components/material-design-iconic-font/dist/css/material-design-iconic-font.min.css' %}"
+          rel="stylesheet">
 
-        <!-- Site CSS -->
-        <link href="{% static 'site/css/app-1.min.css' %}" rel="stylesheet">
-    </head>
+    <!-- Site CSS -->
+    <link href="{% static 'site/css/app-1.min.css' %}" rel="stylesheet">
 
-    <body>
-    {% block body %}
+    <script src="{% static 'site/vendors/bower_components/remarkable-bootstrap-notify/dist/bootstrap-notify.min.js' %}"></script>
 
-    {% endblock %}
+</head>
 
-        <!-- Javascript Libraries -->
+<body>
+{% block body %}
 
-        <!-- jQuery -->
-        <script src="{% static 'site/vendors/bower_components/jquery/dist/jquery.min.js' %}"></script>
+{% endblock %}
 
-        <!-- Bootstrap -->
-        <script src="{% static 'site/vendors/bower_components/bootstrap/dist/js/bootstrap.min.js' %}"></script>
+<!-- Javascript Libraries -->
 
-        <!-- Placeholder for IE9 -->
-        <!--[if IE 9 ]>
+<!-- jQuery -->
+<script src="{% static 'site/vendors/bower_components/jquery/dist/jquery.min.js' %}"></script>
+
+<!-- Bootstrap -->
+<script src="{% static 'site/vendors/bower_components/bootstrap/dist/js/bootstrap.min.js' %}"></script>
+
+<!-- Malihu ScrollBar -->
+<script src="{% static 'site/vendors/bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js' %}"></script>
+
+<!-- Bootstrap Notify -->
+<script src="{% static 'site/vendors/bower_components/remarkable-bootstrap-notify/dist/bootstrap-notify.min.js' %}"></script>
+
+<!-- Moment -->
+<script src="{% static 'site/vendors/bower_components/moment/min/moment.min.js' %}"></script>
+
+<!-- FullCalendar -->
+<script src="{% static 'site/vendors/bower_components/fullcalendar/dist/fullcalendar.min.js' %}"></script>
+
+<!-- Simple Weather -->
+<script src="{% static 'site/vendors/bower_components/simpleWeather/jquery.simpleWeather.min.js' %}"></script>
+
+<!-- Salvattore -->
+<script src="{% static 'site/vendors/bower_components/salvattore/dist/salvattore.min.js' %}"></script>
+
+<!-- Flot Charts -->
+<script src="{% static 'site/vendors/bower_components/flot/jquery.flot.js' %}"></script>
+<script src="{% static 'site/vendors/bower_components/flot/jquery.flot.resize.js' %}"></script>
+<script src="{% static 'site/vendors/bower_components/flot.curvedlines/curvedLines.js' %}"></script>
+
+<!-- Sparkline Charts -->
+<script src="{% static 'site/vendors/jquery.sparkline/jquery.sparkline.min.js' %}"></script>
+
+<!-- EasyPie Charts -->
+<script src="{% static 'site/vendors/bower_components/jquery.easy-pie-chart/dist/jquery.easypiechart.min.js' %}"></script>
+
+<!-- Bootstrap -->
+<script src="{% static 'site/vendors/bower_components/bootstrap/dist/js/bootstrap.min.js' %}"></script>
+
+<!-- Placeholder for IE9 -->
+<!--[if IE 9 ]>
             <script src="{% static 'site/vendors/bower_components/jquery-placeholder/jquery.placeholder.min.js' %}"></script>
         <![endif]-->
 
-        <!-- Site Functions & Actions -->
-        <script src="{% static 'site/js/app.min.js' %}"></script>
-    </body>
+<!-- Site Functions & Actions -->
+<script src="{% static 'site/js/app.min.js' %}"></script>
+
+<script>
+    {% if messages %}
+        {% for message in messages %}
+            $.notify({
+                message: '{{ message }}'
+            }, {
+                type: '{{ message.tags }}',
+                allow_dismiss: true,
+                placement: {
+                    from: 'top',
+                    align: 'right'
+                },
+                delay: 2500,
+                animate: {
+                    enter: 'animated flipInX',
+                    exit: 'animated flipOutX'
+                },
+                offset: {
+                    x: 30,
+                    y: 30
+                }
+            });
+        {% endfor %}
+    {% endif %}
+</script>
+</body>
 </html>

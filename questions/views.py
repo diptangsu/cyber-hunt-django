@@ -1,15 +1,14 @@
 from django.shortcuts import render
 from django.shortcuts import get_object_or_404
-from CyberHuntDjango.decorators import check_login
+from CyberHuntDjango.decorators import login_required_custom
 import os
 
 from .models import Question
 from .models import Submission
 
 
-@check_login
+@login_required_custom
 def question(request, question_id):
-    print('ekhane', request.session.get('team_id', 'nei'))
     this_question = get_object_or_404(Question, id=question_id)
     question_files = 1
     question_images = 1

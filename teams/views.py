@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.shortcuts import redirect
 from django.contrib import messages
 from .models import Team
-from CyberHuntDjango.decorators import check_login
+from CyberHuntDjango.decorators import login_required_custom
 
 
 def index(request):
@@ -27,10 +27,10 @@ def register(request):
                 messages.success(request, 'New team added successfully')
                 return redirect('question', question_id=1)
             else:
-                messages.error(request, 'Passwords don\'t match')
+                messages.error(request, 'Passwords don\'t match', 'danger')
                 return render(request, 'teams/register.html')
         else:
-            messages.error(request, 'All fields are required')
+            messages.error(request, 'All fields are required', 'danger')
             return render(request, 'teams/register.html')
 
 
@@ -51,14 +51,14 @@ def login(request):
 
                 return redirect('question', question_id=1)
             except Team.DoesNotExist:
-                messages.error(request, 'Team name or password incorrect')
+                messages.error(request, 'Team name or password incorrect', 'danger')
                 return render(request, 'teams/login.html')
         else:
-            messages.error(request, 'Team name or password fields are required')
+            messages.error(request, 'Team name or password fields are required', 'danger')
             return render(request, 'teams/login.html')
 
 
-@check_login
+@login_required_custom
 def logout(request):
     del request.session['team_id']
     return redirect('login')

@@ -11,10 +11,13 @@ class Question(models.Model):
     visible = models.BooleanField()
 
     def __str__(self):
-        return f'{self.name} [{self.points}]'
+        return f'{self.id}. {self.name} [{self.points}]'
 
 
 class Submission(models.Model):
     team = models.ForeignKey(Team, on_delete=models.CASCADE)
     question = models.ForeignKey('Question', on_delete=models.CASCADE)
     timestamp = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f'{self.team} -> {self.question}'
