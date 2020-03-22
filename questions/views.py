@@ -45,8 +45,8 @@ get_all_questions = get_all_questions()
 
 
 def get_team_score(team):
-    team_submissions_points = Submission.objects.filter(team=team).aggregate(Sum('question__points'))
-    team_score = list(team_submissions_points.values())[0]
+    team_submissions_points = Submission.objects.filter(team=team).aggregate(score=Coalesce(Sum('question__points'), 0))
+    team_score = team_submissions_points['score']
 
     return team_score
 

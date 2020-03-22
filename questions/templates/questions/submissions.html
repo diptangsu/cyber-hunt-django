@@ -1,18 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Submissions</title>
-</head>
-<body>
+{% extends 'base.html' %}
 
-<ul>
-    {% for submission in submissions %}
-        <li>
-            {{ submission.id }} | {{ submission.name }} | {{ submission.submissions }}
-        </li>
-    {% endfor %}
-</ul>
+{% block title %}
+    Submissions
+{% endblock %}
 
-</body>
-</html>
+{% block body %}
+    <div id="content" class="content--boxed">
+        <div class="content__header">
+        </div>
+
+        <div class="card">
+            <div class="card__header">
+                <h2>Submissions <small>Number of correct submissions per question</small></h2>
+            </div>
+
+            <div class="card__body">
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Question name</th>
+                            <th>Submissions</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {% for question in submissions %}
+                            <tr>
+                                <td>{{ question.id }}</td>
+                                <td>{{ question.name }}</td>
+                                <td>{{ question.submissions }}</td>
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
