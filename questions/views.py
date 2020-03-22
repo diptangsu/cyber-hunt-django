@@ -11,25 +11,42 @@ from .models import Question
 from .models import Submission
 
 
-def get_question_images_and_files(question_id):
+def get_question_images_files_and_links(question_id):
     base_path = f'./questions/static/questionsdata/{question_id}/'
     images_path = os.path.join(base_path, 'images')
     files_path = os.path.join(base_path, 'files')
+    links_path = os.path.join(base_path, 'links')
 
     question_images = None
     question_files = None
+    question_links = None
     if os.path.exists(images_path):
         question_images = [
-            os.path.join(f'questionsdata/{question_id}/images', image_name)
+            {
+                'path': os.path.join(f'questionsdata/{question_id}/images', image_name),
+                'name': image_name
+            }
             for image_name in os.listdir(images_path)
         ]
     if os.path.exists(files_path):
         question_files = [
-            os.path.join(f'questionsdata/{question_id}/files', filename)
+            {
+                'path': os.path.join(f'questionsdata/{question_id}/files', filename),
+                'name': filename
+            }
             for filename in os.listdir(files_path)
         ]
+    if os.path.exists(links_path):
+        question_links = [
+            {
+                'path': os.path.join(f'questionsdata/{question_id}/links', link_name),
+                'name': link_name
+            }
+            for link_name in os.listdir(links_path)
+            if link_name.endswith('.html')
+        ]
 
-    return question_images, question_files
+    return question_images, question_files, question_links
 
 
 def get_all_questions():
@@ -54,7 +71,7 @@ def get_team_score(team):
 @login_required_custom
 def question(request, question_id):
     this_question = get_object_or_404(Question, id=question_id)
-    question_images, question_files = get_question_images_and_files(question_id)
+    question_images, question_files, question_links = get_question_images_files_and_links(question_id)
     all_questions = get_all_questions()
 
     team = Team.objects.get(id=request.session['team_id'])
@@ -71,6 +88,7 @@ def question(request, question_id):
         'questions_answered': questions_answered,
         'files': question_files,
         'images': question_images,
+        'links': question_links,
         'questions_list': all_questions
     })
 

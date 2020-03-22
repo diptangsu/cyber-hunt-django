@@ -1,0 +1,12 @@
+{% load static %}
+
+<div class="row">
+    {% for link in links %}
+        <div class="col-sm-2 col-xs-6">
+            <a target="_blank" href="{% static link.path %}" class="btn btn--light" style="margin-bottom: 10px;">
+                <i class="zmdi zmdi-arrow-right-top zmdi-hc-fw"></i>
+                {{ link.name }}
+            </a>
+        </div>
+    {% endfor %}
+</div>
