@@ -2,9 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Submissions</title>
 </head>
 <body>
-$END$
+
+<ul>
+    {% for submission in submissions %}
+        <li>
+            {{ submission.id }} | {{ submission.name }} | {{ submission.submissions }}
+        </li>
+    {% endfor %}
+</ul>
+
 </body>
 </html>

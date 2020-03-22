@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,6 +6,36 @@
     <title>Question</title>
 </head>
 <body>
+
+<p>{{ team }}</p>
+
+<p>{{ score }}</p>
+
+<p>{{ question }}</p>
+
+<ul>
+    {% for ques in questions_list %}
+        <li>{{ ques }}</li>
+    {% endfor %}
+</ul>
+
+<br>
+
+<ul>
+    {% for file in files %}
+        <li><a href="{% static file %}">{{ file }}</a></li>
+    {% endfor %}
+</ul>
+
+<br>
+
+<ul>
+    {% for image in images %}
+        <li><a href="{% static image %}">{{ image }}</a></li>
+    {% endfor %}
+
+</ul>
+
 
 </body>
 </html>

@@ -3,6 +3,9 @@ from teams.models import Team
 
 
 class Question(models.Model):
+    class Meta:
+        ordering = ('id',)
+
     name = models.CharField(max_length=255)
     body = models.TextField()
     hint = models.CharField(max_length=255)
@@ -15,6 +18,9 @@ class Question(models.Model):
 
 
 class Submission(models.Model):
+    class Meta:
+        ordering = ('timestamp',)
+
     team = models.ForeignKey(Team, on_delete=models.CASCADE)
     question = models.ForeignKey('Question', on_delete=models.CASCADE)
     timestamp = models.DateTimeField(auto_now_add=True)
