@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3d6139a-05ce-4090-a712-177e24eaeb88" name="Default Changelist" comment="completed question template">
-      <change afterPath="$PROJECT_DIR$/questions/templates/questions/subtemplates/question-files.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/questions/templates/questions/subtemplates/question-hint.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/questions/templates/questions/subtemplates/question-images.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/questions/templates/questions/subtemplates/question-links.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/questions/templates/questions/subtemplates/question-submit.html" afterDir="false" />
+    <list default="true" id="b3d6139a-05ce-4090-a712-177e24eaeb88" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questions/templates/questions/subtemplates/question-body.html" beforeDir="false" afterPath="$PROJECT_DIR$/questions/templates/questions/subtemplates/question-body.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/questions/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions/templates/questions/subtemplates/question-submit.html" beforeDir="false" afterPath="$PROJECT_DIR$/questions/templates/questions/subtemplates/question-submit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions/templates/questions/subtemplates/questions-panel.html" beforeDir="false" afterPath="$PROJECT_DIR$/questions/templates/questions/subtemplates/questions-panel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions/templates/questions/subtemplates/timer.html" beforeDir="false" afterPath="$PROJECT_DIR$/questions/templates/questions/subtemplates/timer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/questions/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/questions/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -178,7 +176,8 @@
       <workItem from="1584699165378" duration="4257000" />
       <workItem from="1584704821847" duration="13406000" />
       <workItem from="1584790306815" duration="44321000" />
-      <workItem from="1584906220102" duration="8579000" />
+      <workItem from="1584906220102" duration="10233000" />
+      <workItem from="1584957067129" duration="6957000" />
     </task>
     <task id="LOCAL-00001" summary="added questions and teams app">
       <created>1584701590730</created>
@@ -250,15 +249,20 @@
       <option name="project" value="LOCAL" />
       <updated>1584909690114</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="completed question template">
+      <created>1584914891752</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1584914891752</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="added questions and teams app" />
     <MESSAGE value="added models" />
@@ -289,10 +293,10 @@
       <screen x="0" y="24" width="1366" height="744" />
     </state>
     <state x="416" y="145" width="524" height="503" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.24.1366.744@0.24.1366.744" timestamp="1584787445584" />
-    <state x="181" y="24" width="993" height="744" key="CommitChangelistDialog2" timestamp="1584914817815">
+    <state x="181" y="24" width="993" height="744" key="CommitChangelistDialog2" timestamp="1584914890915">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
-    <state x="181" y="24" width="993" height="744" key="CommitChangelistDialog2/0.24.1366.744@0.24.1366.744" timestamp="1584914817815" />
+    <state x="181" y="24" width="993" height="744" key="CommitChangelistDialog2/0.24.1366.744@0.24.1366.744" timestamp="1584914890915" />
     <state x="127" y="83" width="1092" height="626" key="DiffContextDialog" timestamp="1584873560846">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
@@ -301,22 +305,22 @@
       <screen x="0" y="24" width="1366" height="744" />
     </state>
     <state x="460" y="140" width="424" height="514" key="FileChooserDialogImpl/0.24.1366.744@0.24.1366.744" timestamp="1584704881592" />
-    <state width="1320" height="161" key="GridCell.Tab.0.bottom" timestamp="1584912925967">
+    <state width="1320" height="161" key="GridCell.Tab.0.bottom" timestamp="1584965448820">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
-    <state width="1320" height="161" key="GridCell.Tab.0.bottom/0.24.1366.744@0.24.1366.744" timestamp="1584912925967" />
-    <state width="1320" height="161" key="GridCell.Tab.0.center" timestamp="1584912925966">
+    <state width="1320" height="161" key="GridCell.Tab.0.bottom/0.24.1366.744@0.24.1366.744" timestamp="1584965448820" />
+    <state width="1320" height="161" key="GridCell.Tab.0.center" timestamp="1584965448819">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
-    <state width="1320" height="161" key="GridCell.Tab.0.center/0.24.1366.744@0.24.1366.744" timestamp="1584912925966" />
-    <state width="1320" height="161" key="GridCell.Tab.0.left" timestamp="1584912925965">
+    <state width="1320" height="161" key="GridCell.Tab.0.center/0.24.1366.744@0.24.1366.744" timestamp="1584965448818" />
+    <state width="1320" height="161" key="GridCell.Tab.0.left" timestamp="1584965448818">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
-    <state width="1320" height="161" key="GridCell.Tab.0.left/0.24.1366.744@0.24.1366.744" timestamp="1584912925965" />
-    <state width="1320" height="161" key="GridCell.Tab.0.right" timestamp="1584912925967">
+    <state width="1320" height="161" key="GridCell.Tab.0.left/0.24.1366.744@0.24.1366.744" timestamp="1584965448818" />
+    <state width="1320" height="161" key="GridCell.Tab.0.right" timestamp="1584965448819">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
-    <state width="1320" height="161" key="GridCell.Tab.0.right/0.24.1366.744@0.24.1366.744" timestamp="1584912925967" />
+    <state width="1320" height="161" key="GridCell.Tab.0.right/0.24.1366.744@0.24.1366.744" timestamp="1584965448819" />
     <state width="263" height="500" key="HiddenNamespacesPopup" timestamp="1584805579049">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
@@ -325,14 +329,14 @@
       <screen x="0" y="24" width="1366" height="744" />
     </state>
     <state x="172" y="31" width="1022" height="731" key="SettingsEditor/0.24.1366.744@0.24.1366.744" timestamp="1584906548011" />
-    <state x="278" y="132" width="800" height="529" key="Vcs.Push.Dialog.v2" timestamp="1584897315392">
+    <state x="278" y="132" width="800" height="529" key="Vcs.Push.Dialog.v2" timestamp="1584914903405">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
-    <state x="278" y="132" width="800" height="529" key="Vcs.Push.Dialog.v2/0.24.1366.744@0.24.1366.744" timestamp="1584897315392" />
-    <state x="339" y="223" key="com.intellij.ide.util.TipDialog" timestamp="1584906265215">
+    <state x="278" y="132" width="800" height="529" key="Vcs.Push.Dialog.v2/0.24.1366.744@0.24.1366.744" timestamp="1584914903405" />
+    <state x="339" y="223" key="com.intellij.ide.util.TipDialog" timestamp="1584957067161">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
-    <state x="339" y="223" key="com.intellij.ide.util.TipDialog/0.24.1366.744@0.24.1366.744" timestamp="1584906265215" />
+    <state x="339" y="223" key="com.intellij.ide.util.TipDialog/0.24.1366.744@0.24.1366.744" timestamp="1584957067161" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1584902156553">
       <screen x="0" y="24" width="1366" height="744" />
     </state>

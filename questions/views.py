@@ -1,8 +1,10 @@
 import os
 
+from django.contrib import messages
 from django.db.models import Sum, Count
 from django.db.models.functions import Coalesce
 from django.shortcuts import get_object_or_404
+from django.shortcuts import redirect
 from django.shortcuts import render
 
 from CyberHuntDjango.decorators import login_required_custom
@@ -62,7 +64,9 @@ get_all_questions = get_all_questions()
 
 
 def get_team_score(team):
-    team_submissions_points = Submission.objects.filter(team=team).aggregate(score=Coalesce(Sum('question__points'), 0))
+    team_submissions_points = Submission.objects \
+        .filter(team=team) \
+        .aggregate(score=Coalesce(Sum('question__points'), 0))
     team_score = team_submissions_points['score']
 
     return team_score
@@ -70,27 +74,47 @@ def get_team_score(team):
 
 @login_required_custom
 def question(request, question_id):
-    this_question = get_object_or_404(Question, id=question_id)
-    question_images, question_files, question_links = get_question_images_files_and_links(question_id)
     all_questions = get_all_questions()
-
     team = Team.objects.get(id=request.session['team_id'])
-    score = get_team_score(team)
+    this_question = get_object_or_404(Question, id=question_id)
 
-    questions_answered = set(
-        Submission.objects.values_list('question__id', flat=True).filter(team=team)
-    )
+    if request.method == 'GET':
+        question_images, question_files, question_links = get_question_images_files_and_links(question_id)
 
-    return render(request, 'questions/question.html', {
-        'team': team,
-        'score': score,
-        'question': this_question,
-        'questions_answered': questions_answered,
-        'files': question_files,
-        'images': question_images,
-        'links': question_links,
-        'questions_list': all_questions
-    })
+        score = get_team_score(team)
+
+        questions_answered = set(
+            Submission.objects.values_list('question__id', flat=True).filter(team=team)
+        )
+
+        return render(request, 'questions/question.html', {
+            'team': team,
+            'score': score,
+            'question': this_question,
+            'questions_answered': questions_answered,
+            'files': question_files,
+            'images': question_images,
+            'links': question_links,
+            'questions_list': all_questions
+        })
+    elif request.method == 'POST':
+        answer = request.POST.get('answer')
+        if answer:
+            if answer == this_question.answer:
+                try:
+                    Submission.objects.get(team=team, question=this_question)
+                    messages.warning(request, 'You have already answered this question')
+                except Submission.DoesNotExist:
+                    submission = Submission(team=team, question=this_question)
+                    submission.save()
+
+                    messages.success(request, f'Correct answer!! You get {this_question.points} points')
+            else:
+                messages.error(request, 'Wrong answer', 'danger')
+        else:
+            messages.error(request, 'Please submit and answer', 'danger')
+
+        return redirect('question', question_id=question_id)
 
 
 def submissions(request):

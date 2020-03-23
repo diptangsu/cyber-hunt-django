@@ -1,4 +1,4 @@
-<div class="navigation__menu c-overflow">
+<div class="navigation__menu c-overflow" style="display: block; overflow: auto; height: auto">
     <ul>
         {% for ques in questions_list %}
             <li class="{% if question.id == ques.id %}navigation__active{% endif %}">

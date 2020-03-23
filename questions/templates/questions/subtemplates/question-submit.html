@@ -6,21 +6,10 @@
         <div class="col-sm-6">
             <div class="form-group">
                 <input name="answer"
-                       onkeyup="removeSpaces()"
                        id="answer"
                        required
                        class="form-control input-lg"
                        placeholder="Enter the flag as caot{flag}">
-                <script>
-                    const input = document.getElementById('answer');
-                    document.getElementById("answer").addEventListener("keypress", removeSpaces(input));
-
-                    removeSpaces = (val) => {
-                        val = document.getElementById("answer").value;
-                        val = val.replace(/\s/g, "");
-                        document.getElementById("answer").value = val;
-                    }
-                </script>
 
                 <i class="form-group__bar"></i>
             </div>
