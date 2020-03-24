@@ -3,11 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="b3d6139a-05ce-4090-a712-177e24eaeb88" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questions/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/questions/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questions/templates/questions/subtemplates/question-submit.html" beforeDir="false" afterPath="$PROJECT_DIR$/questions/templates/questions/subtemplates/question-submit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CyberHuntDjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/CyberHuntDjango/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions/templates/questions/question.html" beforeDir="false" afterPath="$PROJECT_DIR$/questions/templates/questions/question.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions/templates/questions/subtemplates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/questions/templates/questions/subtemplates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions/templates/questions/subtemplates/question-body.html" beforeDir="false" afterPath="$PROJECT_DIR$/questions/templates/questions/subtemplates/question-body.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/questions/templates/questions/subtemplates/questions-panel.html" beforeDir="false" afterPath="$PROJECT_DIR$/questions/templates/questions/subtemplates/questions-panel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questions/templates/questions/subtemplates/timer.html" beforeDir="false" afterPath="$PROJECT_DIR$/questions/templates/questions/subtemplates/timer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/questions/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/questions/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +178,7 @@
       <workItem from="1584704821847" duration="13406000" />
       <workItem from="1584790306815" duration="44321000" />
       <workItem from="1584906220102" duration="10233000" />
-      <workItem from="1584957067129" duration="6957000" />
+      <workItem from="1584957067129" duration="10830000" />
     </task>
     <task id="LOCAL-00001" summary="added questions and teams app">
       <created>1584701590730</created>
@@ -256,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584914891752</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="completed submissions logic and almost completed front end with minor faults">
+      <created>1584965594671</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1584965594671</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,7 +283,8 @@
     <MESSAGE value="completed submissions and leaderboard templates" />
     <MESSAGE value="added templates for question page" />
     <MESSAGE value="completed question template" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed question template" />
+    <MESSAGE value="completed submissions logic and almost completed front end with minor faults" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed submissions logic and almost completed front end with minor faults" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -293,10 +302,10 @@
       <screen x="0" y="24" width="1366" height="744" />
     </state>
     <state x="416" y="145" width="524" height="503" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.24.1366.744@0.24.1366.744" timestamp="1584787445584" />
-    <state x="181" y="24" width="993" height="744" key="CommitChangelistDialog2" timestamp="1584914890915">
+    <state x="181" y="24" width="993" height="744" key="CommitChangelistDialog2" timestamp="1584965593044">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
-    <state x="181" y="24" width="993" height="744" key="CommitChangelistDialog2/0.24.1366.744@0.24.1366.744" timestamp="1584914890915" />
+    <state x="181" y="24" width="993" height="744" key="CommitChangelistDialog2/0.24.1366.744@0.24.1366.744" timestamp="1584965593044" />
     <state x="127" y="83" width="1092" height="626" key="DiffContextDialog" timestamp="1584873560846">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
@@ -329,10 +338,10 @@
       <screen x="0" y="24" width="1366" height="744" />
     </state>
     <state x="172" y="31" width="1022" height="731" key="SettingsEditor/0.24.1366.744@0.24.1366.744" timestamp="1584906548011" />
-    <state x="278" y="132" width="800" height="529" key="Vcs.Push.Dialog.v2" timestamp="1584914903405">
+    <state x="278" y="132" width="800" height="529" key="Vcs.Push.Dialog.v2" timestamp="1584965598979">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
-    <state x="278" y="132" width="800" height="529" key="Vcs.Push.Dialog.v2/0.24.1366.744@0.24.1366.744" timestamp="1584914903405" />
+    <state x="278" y="132" width="800" height="529" key="Vcs.Push.Dialog.v2/0.24.1366.744@0.24.1366.744" timestamp="1584965598979" />
     <state x="339" y="223" key="com.intellij.ide.util.TipDialog" timestamp="1584957067161">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
