@@ -1,0 +1,1285 @@
+[
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "questions",
+      "model": "question"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "questions",
+      "model": "submission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "teams",
+      "model": "team"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "1gp371zdd5395prlzr9b4k4oga2qyr7u",
+    "fields": {
+      "session_data": "MDg2ODkyMWZkYzQ2MGQ2MzRiOTNmMjk0MTFmZTViZmMzZGQ1ZDMwOTp7InRlYW1faWQiOjF9",
+      "expire_date": "2020-04-06T12:21:45.015Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "3840ix8sjl8oerwhrrhwwfvm9ukq0ocx",
+    "fields": {
+      "session_data": "ZTFlOTA2ZjlkMmNhZmY3MTU3YTEwMWU2YzY5YjYxZDFhZTQyNmFiZTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI0NWQzMjgyMDFjMmNkYjJmODEyOWMyMzdmOTliY2UwZDM1YmJhYWNhIiwidGVhbV9pZCI6MX0=",
+      "expire_date": "2020-04-06T12:15:58.149Z"
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 1,
+    "fields": {
+      "name": "Getting started",
+      "body": "The flag is <font color=\"#ff7d0c\">caot{cyber_hunt}</font>",
+      "hint": "I literally gave you the answer.",
+      "answer": "caot{cyber_hunt}",
+      "points": 10,
+      "visible": true
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 2,
+    "fields": {
+      "name": "Veni, vidi, vici.",
+      "body": "Here is the answer<br><font color=\"#ff7d0c\">cixd{f_qorpqba_vlr_yorqrp}</font>",
+      "hint": "He was stabbed 23 times",
+      "answer": "caot{i_trusted_you_brutus}",
+      "points": 50,
+      "visible": true
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 3,
+    "fields": {
+      "name": "Experience is the teacher of all things.",
+      "body": "In 48 B.C., Caesar went to Egypt to track down one of his rivals, the Roman general Pompey, and while there he met Cleopatra, who was embroiled in a civil war with her younger brother and co-ruler Ptolemy XIII (per ancient Egyptian custom, the two ruled under the formal title of husband and wife). Caesar, who declared himself the executor of the will of the siblings\u2019 late father, ordered the pair to come see him so they could settle their feud. When Ptolemy\u2019s army stopped Cleopatra from traveling to the palace where Caesar was staying, she had herself smuggled in a laundry bag to meet him for the first time, according to some accounts. Caesar and Cleopatra, who was half the Roman general\u2019s age, became romantically involved, and around 47 B.C., she gave birth to a boy, Ptolemy Caesar, who was believed to be Caesar\u2019s child. The Egyptians referred to him as Caesarion, meaning little Caesar.<br><br>Shortly after Caesar\u2019s murder in 44 B.C., Cleopatra\u2019s brother and co-ruler Ptolemy XIV was killed. (Her previous co-ruler, Ptolemy XIII, had died around 47 B.C.) Although never proven, there was suspicion Cleopatra poisoned Ptolemy XIV so she could name Caesarion her co-ruler, which she did that same year. He became known as Ptolemy XV.<br><br>In 31 B.C., the forces of Cleopatra and her lover Mark Antony were defeated at the Battle of Actium by Octavian, Caesar\u2019s great-nephew, and chosen heir. The following year, Antony and Cleopatra both committed suicide, leaving Caesarion as Egypt\u2019s sole pharaoh; however, his reign was brief because not long after his mother\u2019s death, Caesarion was murdered on orders from Octavian, who went on to become the first Roman emperor. Taking the name Augustus, he ruled from 27 B.C. to A.D. 14.<br><br><font color=\"#ff7d0c\">CDRICNALACALAWNEELHDEHSCSEANSIAAAODAACLERPAMRHISAACEIMTANTHDOETR</font>",
+      "hint": "Who likes perfect squares?",
+      "answer": "caot{CAESARANDCLEOPATRAHADACHILDNAMEDCAESARIONWHICHMEANSALITTLECAESAR}",
+      "points": 60,
+      "visible": true
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 4,
+    "fields": {
+      "name": "ECNALUBMA",
+      "body": "Here is the answer<br>\r\n<font color=\"#ff7d0c\">nriili_nriili_lm_gsv_dzoo_dsl_rh_gsv_uzrivhg_lu_gsvn_zoo</font>",
+      "hint": "Look in the mirror",
+      "answer": "caot{mirror_mirror_on_the_wall_who_is_the_fairest_of_them_all}",
+      "points": 100,
+      "visible": true
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 5,
+    "fields": {
+      "name": "Colour",
+      "body": "What is the background colour of this website?",
+      "hint": "Chrome will definitely give you the answer!",
+      "answer": "caot{#22313a}",
+      "points": 50,
+      "visible": true
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 6,
+    "fields": {
+      "name": "Square root?",
+      "body": "What is the square root of 25?",
+      "hint": "Do you actually need a hint for this one?",
+      "answer": "caot{\u00b15}",
+      "points": 40,
+      "visible": true
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 7,
+    "fields": {
+      "name": "I am hidden",
+      "body": "Well, this file has the answer. If you look hard enough, I\"m sure you\"ll find it.",
+      "hint": "Reading it a 100 times won\"t help you SEE the answer.",
+      "answer": "caot{1_am_h1dd3n_1n_wh1t3_c0lu0r}",
+      "points": 50,
+      "visible": false
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 8,
+    "fields": {
+      "name": "That is a lot of text",
+      "body": "Isn\"t this file huge? All the characters are in lowercase. Well, not all, the answer is in uppercase!",
+      "hint": "Solving this shouldn\"t take more than 2 minutes if you can code.",
+      "answer": "caot{THISFILEISHUGEAFLMAO}",
+      "points": 100,
+      "visible": true
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 9,
+    "fields": {
+      "name": "Are they different?",
+      "body": "The two files may look exactly like each other, but they have minor differences. Good luck finding them!",
+      "hint": "You just have to compare the files! Or maybe find their difference!",
+      "answer": "caot{THEIMAGEONTHEMIRRORISDIFFERENT}",
+      "points": 150,
+      "visible": true
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 10,
+    "fields": {
+      "name": "They are different!",
+      "body": "The two files may look exactly like each other, but the second file is a bit different from the first one, it has the answer! Good luck finding the answer!",
+      "hint": "Can you code?",
+      "answer": "caot{welldonesolvingthisone}",
+      "points": 200,
+      "visible": true
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 11,
+    "fields": {
+      "name": "I am Hidden",
+      "body": "Congratulations!<br>\\r\\nYou\"ve found a hidden question!",
+      "hint": "The answer is caot{free_points_here}",
+      "answer": "caot{free_points_here}",
+      "points": 70,
+      "visible": false
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 12,
+    "fields": {
+      "name": "Few files",
+      "body": "This should be easy. Just remember the name of this event!",
+      "hint": "Download, extract, get the answer.",
+      "answer": "caot{geek_xor_is_a_nerd}",
+      "points": 30,
+      "visible": true
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 13,
+    "fields": {
+      "name": "Few more files!",
+      "body": "Well, it\"s actually a lot more files. The answer lies in one of them!",
+      "hint": "Look through all of them? Maybe not! Bad idea, way too many files to go though manually.",
+      "answer": "caot{GOOD_JOB_DUDE_U_FOUND_ME}",
+      "points": 100,
+      "visible": true
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 14,
+    "fields": {
+      "name": "Login",
+      "body": "You just have to login with the given username and password.",
+      "hint": "Client side validation is bad, don\"t you think?",
+      "answer": "caot{cl13nt_s1d3_val1dat10n_15_bad_xajsbd12902}",
+      "points": 60,
+      "visible": true
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 15,
+    "fields": {
+      "name": "Login again",
+      "body": "Run the .class file and login to get the flag",
+      "hint": "Haven\"t we all done changing the subject of a formula in class 4?",
+      "answer": "caot{1t_15_51mpl3_math5}",
+      "points": 50,
+      "visible": true
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 16,
+    "fields": {
+      "name": "Accumulator",
+      "body": "We are giving you the code and the .class file. Run the .class file and get the answer.",
+      "hint": "What is the size of int datatype?",
+      "answer": "caot{k33p_add1ng_unt1l_1t_0v3rfl0w5}",
+      "points": 100,
+      "visible": true
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 17,
+    "fields": {
+      "name": "NULL",
+      "body": "There is no answer. Just submit nothing, if you can!",
+      "hint": "There actually is no answer.",
+      "answer": "",
+      "points": 40,
+      "visible": true
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 18,
+    "fields": {
+      "name": "Password",
+      "body": "What was your password?",
+      "hint": "You should already know what your password is.",
+      "answer": "dbwrgoubjuvoblnueiobhfhdulivrbolifsuvb",
+      "points": 50,
+      "visible": true
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 19,
+    "fields": {
+      "name": "Kidnapped",
+      "body": "My best friend was kidnapped, and I have no idea where they have taken him! He managed to send me these. I need to know where he is. Please help!",
+      "hint": "Flag format is \\\"location_authorname\\\"",
+      "answer": "caot{Guwahati_BenSwolo}",
+      "points": 100,
+      "visible": true
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 20,
+    "fields": {
+      "name": "Choo Choo",
+      "body": "I was sitting near a fence by the rails, waiting for my train. It was already 3 hours late, when I found this text written on the schedule board in the station. Please help me figure out what this is!<br>\\r\\n<font color=\"#ff7d0c\">ttsmt3tr5__tai_0b_a3ua33_l</font>",
+      "hint": "Read the question properly, it\"s all too obvious.",
+      "answer": "caot{tru5t_a_st3ami3_t0_b3_lat3}",
+      "points": 50,
+      "visible": true
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 21,
+    "fields": {
+      "name": "Look Inside",
+      "body": "This is one image from our trip to Guwahati. What do you think they were feeling <i>inside</i> their hearts?",
+      "hint": "Look inside",
+      "answer": "caot{the_trip_to_guwahati_was_amazing}",
+      "points": 200,
+      "visible": true
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 22,
+    "fields": {
+      "name": "Birthday Gift",
+      "body": "Koustav just dropped a hint for me on my table as to what he wants on his birthday.<br>\\r\\n<font color=\"#ff7d0c\">dynl-cvgjjbvqficcyuhvgwxm</font>",
+      "hint": "He loves playing with cubes!",
+      "answer": "caot{ilovetoplaywithcubes}",
+      "points": 50,
+      "visible": true
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 23,
+    "fields": {
+      "name": "Alkali",
+      "body": "What if you had 64 types of alkalis? What would this message mean?",
+      "hint": "all alkalis are bases, but all bases are not alkalis.",
+      "answer": "caot{out_of_all_bases_i_like_64}",
+      "points": 60,
+      "visible": true
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 24,
+    "fields": {
+      "name": "Matrix",
+      "body": "I found this interesting webpage which is said to have an answer.",
+      "hint": "This is way too easy for a hint.",
+      "answer": "caot{neo_is_a_fucking_pro}",
+      "points": 50,
+      "visible": true
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 25,
+    "fields": {
+      "name": "TWO is POWERful",
+      "body": "What is the strongest number?<br>\\r\\nWell, I don\"t know, and I don\"t care either!<br>\\r\\nAre numbers even powerful?<br>\\r\\nThey say numbers don\"t lie.<br>\\r\\nDo you agree?<br>\\r\\nWell, I don\"t care if you agree.<br>\\r\\nI just think 2 is really powerful and I don\"t care if you don\"t agree with me.",
+      "hint": "The parts seem jumbled up. Or are they? Possible hint I suppose.",
+      "answer": "caot{th3_0rgan153r3_d1ptang5u_k0u5tav_anurag_l0v3_all_mult1pl35_0f_2_and_n00n3_kn0w5_why}",
+      "points": 200,
+      "visible": true
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 26,
+    "fields": {
+      "name": "Lurking in plain sight",
+      "body": "You can see the answer, can\"t you?",
+      "hint": "How do you expect a hint for something so simple?",
+      "answer": "caot{th15_15_an_usel355_1mag3_from_guwahati}",
+      "points": 50,
+      "visible": true
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 27,
+    "fields": {
+      "name": "Spooky Message",
+      "body": "Astronomers searching for signals from alien civilizations have detected a powerful, repeated radio pulse coming from a dwarf galaxy 3 billion light-years away from Earth. The source of the mysterious signal is unknown. However, our scientists believe that this frequency converted to an audio file may contain some hidden message from an alien civilization. The scientists need your help to decode it. Can you analyze the spectrum of the sound and help us find out what is the message?",
+      "hint": "Analyze the sound carefully",
+      "answer": "caot{Spookynoise}",
+      "points": 494,
+      "visible": true
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 28,
+    "fields": {
+      "name": "ASCII",
+      "body": "Didn\"t feel like writing a question yesterday night. I was tired.",
+      "hint": "It\"s in the name of the question",
+      "answer": "caot{this_flag_has_been_converted_to_ascii_completely}",
+      "points": 500,
+      "visible": true
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 29,
+    "fields": {
+      "name": "Can\"t Google this",
+      "body": "Do you like spiders? Well the flag is somewhere we don\"t want you to visit.",
+      "hint": "The images are hints",
+      "answer": "caot{1_l0v3_play1ng_w1th_r0b0t5}",
+      "points": 1000,
+      "visible": true
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 30,
+    "fields": {
+      "name": "exec x3",
+      "body": "This is a hexy code!",
+      "hint": "You\"ll get a python code.",
+      "answer": "caot{python_decode_times_three}",
+      "points": 2000,
+      "visible": true
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 31,
+    "fields": {
+      "name": "Find what they did",
+      "body": "What do you think they are having? Or maybe look into their stomach to find out what is <i>INSIDE</i>.",
+      "hint": "You can see what they are having, can\"t you?",
+      "answer": "caot{LOL_TH3Y_W3R3_jU$t_H@v1ng_Burg3r}",
+      "points": 1500,
+      "visible": true
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 32,
+    "fields": {
+      "name": "Hex",
+      "body": "HEX",
+      "hint": "Python!!!",
+      "answer": "caot{i_love_ascii_values_and_hex}",
+      "points": 500,
+      "visible": true
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 33,
+    "fields": {
+      "name": "RSA",
+      "body": "One common method of public key encryption is the RSA algorithm.\\r\\nGiven p, q, e, and c, see if you can recover the message and find the flag!",
+      "hint": "Python code is the easiest!",
+      "answer": "caot{rsa_is_reallllly_fun!!!!!!}",
+      "points": 2000,
+      "visible": true
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 34,
+    "fields": {
+      "name": "Keys Missing",
+      "body": "Your keyboard has three keys broken! \"i\", \"p\" and \"s\". But you have to write a program that takes a number as input and prints all natural numbers upto that number.",
+      "hint": "I don\"t know, and you don\"t have keys hahahahaha",
+      "answer": "k",
+      "points": 2500,
+      "visible": true
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 35,
+    "fields": {
+      "name": "Login",
+      "body": "Client side validation is bad, don\"t you think?",
+      "hint": "You did this in the prelims, didn\"t you?",
+      "answer": "caot{ha5h1ng_a1nt_s0_secure_e1th3r_15_1t}",
+      "points": 500,
+      "visible": true
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 36,
+    "fields": {
+      "name": "Login again",
+      "body": "Ugly == Secure?",
+      "hint": "It\"s simple, but ugly",
+      "answer": "caot{th15_15_r3ally_u53l3ss_and_p01ntl355}",
+      "points": 1000,
+      "visible": true
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 37,
+    "fields": {
+      "name": "Vulns",
+      "body": "I made a game in which I think of two random numbers and you tell me their sum.\\r\\nHow can you beat me? Well, just guess the same two numbers that I guessed! Couldn\"t be simpler!<br>\\r\\nGood luck!<br>\\r\\nYou have the code and the output file.<br>\\r\\nRead the code to find out how to break it, and run the output file to get the flag.",
+      "hint": "Is printf() vulnerable? :(",
+      "answer": "caot{printf_15_vUlN3raBl3_19xJsTmP}",
+      "points": 2500,
+      "visible": true
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 38,
+    "fields": {
+      "name": "Random Guess",
+      "body": "You will only get the answer if you can guess a random number. Well not so random if you think about it properly.",
+      "hint": "What happens if the same person plays multiple times?",
+      "answer": "caot{1_wa5_actually_never_rand0m}",
+      "points": 1500,
+      "visible": true
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 39,
+    "fields": {
+      "name": "Bam! SPAM!",
+      "body": "I recieved this email yesterday in my spam folder. However the college called me up and told me that this was a very important mail. Can you help me understand this bunch of SPAM?",
+      "hint": "Google, Google, Google!",
+      "answer": "caot{ThisIsLiterallyABunchOfSpam}",
+      "points": 1000,
+      "visible": true
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 40,
+    "fields": {
+      "name": "TWO is POWERful",
+      "body": "What is the strongest number?<br>\\r\\nWell, I don\"t know, and I don\"t care either!<br>\\r\\nAre numbers even powerful?<br>\\r\\nThey say numbers don\"t lie.<br>\\r\\nDo you agree?<br>\\r\\nWell, I don\"t care if you agree.<br>\\r\\nI just think 2 is really powerful and I don\"t care if you don\"t agree with me.",
+      "hint": "The parts seem jumbled up. Or are they? Possible hint I suppose.",
+      "answer": "caot{th3_0rgan153r3_d1ptang5u_k0u5tav_anurag_l0v3_all_mult1pl35_0f_2_and_n00n3_kn0w5_why}",
+      "points": 500,
+      "visible": true
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 41,
+    "fields": {
+      "name": "White privilege",
+      "body": "Simply run this file to get the answer.",
+      "hint": "That is a weird style of spacing! Is there something hidden in there?",
+      "answer": "caot{two_programs_in_one}",
+      "points": 800,
+      "visible": true
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 42,
+    "fields": {
+      "name": "3rd Party RSA",
+      "body": "Let the RSA 256 be factored.",
+      "hint": "The question is an OPEN hint",
+      "answer": "caot{MIGpAgEAAiEAiXjunlKtXe4xOxQBvATQ}",
+      "points": 2500,
+      "visible": true
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 43,
+    "fields": {
+      "name": "Keys Available",
+      "body": "You only have these keys<br>\\r\\nr l z x a e u i c v b n m t i s g<br>\\r\\n! @ # $ % ^ & ? / \\\\ * [ ] { } , ( ) _ \" \\\" =<br>\\r\\n0 1 2 3 4 5 6 7 8 9<br>\\r\\nWrite a code that will print numbers from 1 to n",
+      "hint": "I don\"t have a hint for this",
+      "answer": "cc",
+      "points": 3000,
+      "visible": true
+    }
+  },
+  {
+    "model": "questions.submission",
+    "pk": 1,
+    "fields": {
+      "team": 1,
+      "question": 1,
+      "timestamp": "2020-03-22T13:14:20.266Z"
+    }
+  },
+  {
+    "model": "questions.submission",
+    "pk": 2,
+    "fields": {
+      "team": 1,
+      "question": 2,
+      "timestamp": "2020-03-22T13:39:54.885Z"
+    }
+  },
+  {
+    "model": "questions.submission",
+    "pk": 3,
+    "fields": {
+      "team": 2,
+      "question": 2,
+      "timestamp": "2020-03-22T13:48:29.029Z"
+    }
+  },
+  {
+    "model": "questions.submission",
+    "pk": 4,
+    "fields": {
+      "team": 3,
+      "question": 2,
+      "timestamp": "2020-03-22T13:56:30.848Z"
+    }
+  },
+  {
+    "model": "questions.submission",
+    "pk": 5,
+    "fields": {
+      "team": 1,
+      "question": 10,
+      "timestamp": "2020-03-22T16:13:32.255Z"
+    }
+  },
+  {
+    "model": "questions.submission",
+    "pk": 6,
+    "fields": {
+      "team": 2,
+      "question": 1,
+      "timestamp": "2020-03-22T16:14:57.702Z"
+    }
+  },
+  {
+    "model": "questions.submission",
+    "pk": 7,
+    "fields": {
+      "team": 1,
+      "question": 3,
+      "timestamp": "2020-03-23T12:05:44.044Z"
+    }
+  },
+  {
+    "model": "teams.team",
+    "pk": 1,
+    "fields": {
+      "team_name": "C of Pythons",
+      "email": "deep.dippu@gmail.com",
+      "phone": "07980364863",
+      "password": "disciple"
+    }
+  },
+  {
+    "model": "teams.team",
+    "pk": 2,
+    "fields": {
+      "team_name": "Test team",
+      "email": "test@test.test",
+      "phone": "123456789",
+      "password": "test"
+    }
+  },
+  {
+    "model": "teams.team",
+    "pk": 3,
+    "fields": {
+      "team_name": "test team 2",
+      "email": "test2@test.test",
+      "phone": "123",
+      "password": "test2"
+    }
+  },
+  {
+    "model": "teams.team",
+    "pk": 4,
+    "fields": {
+      "team_name": "Loser",
+      "email": "loser@loser.com",
+      "phone": "1234",
+      "password": "loser"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add question",
+      "content_type": 7,
+      "codename": "add_question"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change question",
+      "content_type": 7,
+      "codename": "change_question"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete question",
+      "content_type": 7,
+      "codename": "delete_question"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view question",
+      "content_type": 7,
+      "codename": "view_question"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add submission",
+      "content_type": 8,
+      "codename": "add_submission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change submission",
+      "content_type": 8,
+      "codename": "change_submission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete submission",
+      "content_type": 8,
+      "codename": "delete_submission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view submission",
+      "content_type": 8,
+      "codename": "view_submission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add team",
+      "content_type": 9,
+      "codename": "add_team"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change team",
+      "content_type": 9,
+      "codename": "change_team"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete team",
+      "content_type": 9,
+      "codename": "delete_team"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view team",
+      "content_type": 9,
+      "codename": "view_team"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$180000$zl9FSBXT9sDO$XgGncm0dd3cuUEVNEBqjTFGKan/qjR1MDMzlQNgGUho=",
+      "last_login": "2020-03-21T15:48:04.222Z",
+      "is_superuser": true,
+      "username": "disciple",
+      "first_name": "",
+      "last_name": "",
+      "email": "dip@dip.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2020-03-21T15:47:58.290Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2020-03-21T15:51:08.132Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "C of Pythons",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Email\", \"Phone\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2020-03-22T09:38:54.651Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Getting started [10]",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2020-03-22T10:34:12.310Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "27",
+      "object_repr": "27. Spooky Message [494]",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Body\", \"Hint\", \"Answer\", \"Points\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2020-03-22T13:14:20.287Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "C of Pythons -> 1. Getting started [10]",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2020-03-22T13:39:54.887Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "C of Pythons -> 2. Veni, vidi, vici. [50]",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2020-03-22T13:48:24.183Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "Test team",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2020-03-22T13:48:29.031Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Test team -> 2. Veni, vidi, vici. [50]",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2020-03-22T13:56:26.749Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "test team 2",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2020-03-22T13:56:30.849Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "test team 2 -> 2. Veni, vidi, vici. [50]",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2020-03-22T16:13:32.256Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "C of Pythons -> 10. They are different! [200]",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2020-03-22T16:14:57.703Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "Test team -> 1. Getting started [10]",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2020-03-22T16:34:31.056Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "Loser",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2020-03-22T19:09:39.500Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "1. Getting started [10]",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2020-03-22T19:22:04.549Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "2. Veni, vidi, vici. [50]",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2020-03-22T19:23:06.263Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "3. Experience is the teacher of all things. [60]",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2020-03-22T19:23:33.523Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "4. ECNALUBMA [100]",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2020-03-22T19:23:51.893Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "3. Experience is the teacher of all things. [60]",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2020-03-22T20:37:53.438Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "7. I am hidden [50]",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Visible\"]}}]"
+    }
+  }
+]
